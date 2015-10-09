@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- Include the core AngularJS library -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <title>The Clash</title>
+    </head>
+    <body ng-app="theClash">
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2" ng-controller="bandController">
+                        <img ng-src="{{ logo_black }}" class="logo-small">
+                        <h1>The Clash</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="members" ng-controller="bandController">
+            <div class="container">
+                <div class="member" ng-repeat="member in members">
+                    <band-member member="member"></band-member>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modules -->
+        <script src="scripts/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="scripts/controllers/main.js"></script>
+
+        <!-- Directives -->
+        <script src="scripts/directives/bandMember.js"></script>
+        <script src="scripts/directives/faceMe.js"></script>
+    </body>
+</html>
