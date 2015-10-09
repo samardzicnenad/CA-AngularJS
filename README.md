@@ -8,3 +8,7 @@ AngularJS coding assignments inspired by the CodeAcademy course
     - a controller with a data structure and two functions 
 
 Web page pulls Amazon's top 10 selling books in 2015 and displays them. It also implements functions to add likes/dislikes for every book.
+#### The Clash page
+- In addition to previously introduced, the assignment contains custom made directive(s)
+
+Web page shows short bios (taken from wikipedia) of the four most important members of the band The Clash.
