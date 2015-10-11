@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2" ng-controller="bandController">
-                        <img ng-src="{{ logo_black }}" class="logo-small">
+                        <img ng-src="{{ block.logo_black }}" class="logo-small">
                         <h1>The Clash</h1>
                     </div>
                 </div>
@@ -21,8 +21,9 @@
 
         <div class="members" ng-controller="bandController">
             <div class="container">
-                <div class="member" ng-repeat="member in members">
+                <div class="member" ng-repeat="member in block.members">
                     <band-member member="member"></band-member>
+                    <face-me content="block"></face-me>
                 </div>
             </div>
         </div>
