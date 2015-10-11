@@ -1,18 +1,15 @@
-<div>
-    <img class="member-image" ng-src="{{ member.general.image }}" >
-    <div class="separated">
-        <h3 class="member-general">{{ member.general.name }}</h3>
-    </div>
-    <div class="separated">
-        <div class="member-general">{{ member.general.occupations }}</div>
-    </div>
-    <div class="separated">
-        <div class="member-general">{{ member.general.instrument }}</div>
-    </div>
-    <div class="separated">
-        <div class="member-general">{{ member.general.associated }}</div>
-    </div>
-    <!--<face-me></face-me>-->
-    <p class="bio">{{ member.bio }}</p>
-    <img class="bio-img" ng-src="">
+<img class="member-image" ng-src="{{ member.general.image }}" >
+<mug-shot>{{ member.general.mug }}</mug-shot>
+<div class="separated">
+    <h3 class="member-general">{{ member.general.name }}</h3>
 </div>
+<div class="separated">
+    <div class="member-general">{{ member.general.occupations }}</div>
+</div>
+<div class="separated">
+    <div class="member-general">{{ member.general.instrument }}</div>
+</div>
+<div class="separated">
+    <div class="member-general">{{ member.general.associated }}</div>
+</div>
+<p class="bio">{{ member.bio }}</p>

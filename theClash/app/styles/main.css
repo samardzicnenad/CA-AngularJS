@@ -34,47 +34,6 @@ body {
     margin-right: 10px;
 }
 
-.notification {
-    position: relative;
-}
-
-.notification img {
-    padding: 10px 0;
-}
-
-.notification-menu {
-    position: absolute;
-    top: 50px;
-    left: -200px;
-    background-color: #e5e5e5;
-    border: #989898;
-    padding: 10px;
-    list-style: none;
-    width: 250px;
-    display: none;
-}
-
-.notification-menu li {
-    background-color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.notification-menu .member-image {
-    padding: 2px 0;
-}
-
-.notification-menu h3 {
-    font-size: 15px;
-    margin: 0 0 5px 0;
-    display: inline;
-}
-
-.notification-menu p {
-    margin-bottom: 0;
-    font-size: 14px;
-}
-
 .member {
     background-color: #fff;
     padding: 20px;
@@ -91,7 +50,12 @@ body {
     float: left;
 }
 
-.separated {
+.member mug-shot {
+    display: none;
+}
+
+.member .separated {
+    margin-top: 24px;
     margin-bottom: 48px;
 }
 
@@ -119,6 +83,7 @@ body {
     border-color: #ccc;
     background-color: transparent;
     font-weight: 600;
+    width: 100px;
 }
 
 .facing .btn {
