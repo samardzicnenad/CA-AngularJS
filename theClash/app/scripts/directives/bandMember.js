@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('theClash').directive('bandMember', function() {
+angular.module('The Clash').directive('bandMember', function() {
   return {
     restrict: 'E',
     scope: {
