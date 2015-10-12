@@ -1,1 +1,1 @@
-angular.module('theBestSellers', []);
+angular.module('The Best Sellers', []);
