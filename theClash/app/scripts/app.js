@@ -1,1 +1,1 @@
-angular.module("theClash",[]);
+angular.module("The Clash",[]);

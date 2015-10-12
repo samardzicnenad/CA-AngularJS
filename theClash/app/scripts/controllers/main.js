@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('theClash').controller('bandController', ['$scope', function($scope) {
+angular.module('The Clash').controller('bandController', ['$scope', function($scope) {
     $scope.block = {
         logo_black: 'images/logo_b.jpg',
         members: [
