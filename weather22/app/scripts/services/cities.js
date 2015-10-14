@@ -50,9 +50,7 @@ angular.module('Weather 22').factory('cities', ['$http', function($http) {
                                                                       3530597,\
                                                                       3936456,\
                                                                       5128581,\
-                                                                      2643743\
-                                                                      &units=metric\
-                                                                      &appid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+                                                                      2643743&units=metric&appid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
     .success(function(data) {
         return data;
     })
