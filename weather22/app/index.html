@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- Include the core AngularJS library -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <title>Weather 22</title>
+    </head>
+    <body ng-app="Weather 22">
+        <div class="header">
+            <div class="container">
+                <a ng-href="http://www.openweathermap.org/" target="_blank">
+                    <img ng-src="images/logo.png" />
+                </a>
+            </div>
+        </div>
+        <div class="main" ng-controller="MainController">
+            <div class="container">
+                <div ng-repeat="city in list" class="aaa">
+                    <div class="content">
+                        <div class="rank">{{$index + 1}}</div>
+                        <city-weather info="city"></city-weather>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modules -->
+        <script src="scripts/app.js"></script>
+        <!-- Controllers -->
+        <script src="scripts/controllers/main.js"></script>
+        <!-- Directives -->
+        <script src="scripts/directives/cityWeather.js"></script>
+        <!-- Services -->
+        <script src="scripts/services/cities.js"></script>
+    </body>
+</html>
