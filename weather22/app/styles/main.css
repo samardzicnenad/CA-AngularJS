@@ -1,0 +1,74 @@
+body {
+    background: #00B2F6;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    width: 90%;
+    margin: 5px auto 0px auto;
+    border-style: solid;
+    padding: 22px 0px 22px 22px;
+}
+
+.rank {
+    background: #FF7A09;
+    float: left;
+    font-size: 35px;
+    margin: 5px 0;
+    padding: 8px;
+    width: 42px;
+    text-align: center;
+    border-radius: 22%;
+}
+
+.city {
+    color: #EB5703;
+}
+
+.section {
+    width: 22%;
+}
+
+.flag {
+    height: 45px;
+    width: 67px;
+    margin: 0 8px 0 16px;
+    padding: 11px 0
+}
+
+.field {
+    color: #675555;
+}
+
+.fw1 {
+    width: 70px;
+}
+
+.fw2 {
+    width: 110px;
+}
+
+.fw3 {
+    width: 120px;
+}
+
+.fw4 {
+    width: 90px;
+}
+
+.left {
+    float: left;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.clearfix {
+    clear: both;
+}

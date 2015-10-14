@@ -1,0 +1,76 @@
+<div class="city-data">
+    <div class="left middle">
+        <div class="img_container">
+            <img class="flag" ng-src="images/{{ info.sys.country }}.png">
+        </div>
+    </div>
+    <div class="left section">
+        <div>
+            <div class="city">{{ info.name }}, {{ info.sys.country }}</div>
+            <div> {{ info.dt * 1000 | date:'yyyy-MM-dd HH:mm:ss (Z)' }}</div>
+        </div>
+        <div>
+            <div class="field fw1 left">General:</div>
+            <div class="value">{{ info.weather[0].main }}</div>
+        </div>
+        <div>
+            <div class="field fw1 left">Details:</div>
+            <div class="value">{{ info.weather[0].description }}</div>
+        </div>
+    </div>
+    <div class="left section">
+        <div>
+            <div class="field fw2 left">Temperature:</div>
+            <div class="value">{{ info.main.temp }} &deg;C</div>
+        </div>
+        <div>
+            <div class="field fw2 left">[min, max]:</div>
+            <div class="value">[{{ info.main.temp_min }} &deg;C, {{ info.main.temp_max }} &deg;C]</div>
+        </div>
+        <div>
+            <div class="field fw2 left">Pressure:</div>
+            <div class="value">{{ info.main.pressure }} hPa</div>
+        </div>
+        <div>
+            <div class="field fw2 left">Humidity:</div>
+            <div class="value">{{ info.main.humidity }}%</div>
+        </div>
+    </div>
+    <div class="left section">
+        <div>
+            <div class="field fw3 left">Wind speed:</div>
+            <div class="value">{{ info.wind.speed }} m/s</div>
+        </div>
+        <div>
+            <div class="field fw3 left">Wind direction:</div>
+            <div class="value">{{ info.wind.deg }} deg</div>
+        </div>
+        <div>
+            <div class="field fw3 left">Cloudiness:</div>
+            <div class="value">{{ info.clouds.all }} %</div>
+        </div>
+        <div>
+            <div class="field fw3 left">Visibility:</div>
+            <div class="value" ng-show="info.visibility != null">{{ info.visibility }} m</div>
+        </div>
+    </div>
+    <div class="left section">
+        <div>
+            <div class="field fw4 left">Longitude:</div>
+            <div class="value">{{ info.coord.lon }} &deg;</div>
+        </div>
+        <div>
+            <div class="field fw4 left">Latitude:</div>
+            <div class="value">{{ info.coord.lat }} &deg;</div>
+        </div>
+        <div>
+            <div class="field fw4 left">Sunrise:</div>
+            <div class="value">{{ info.sys.sunrise  * 1000 | date:'yyyy-MM-dd HH:mm:ss (Z)' }}</div>
+        </div>
+        <div>
+            <div class="field fw4 left">Sunset:</div>
+            <div class="value">{{ info.sys.sunset  * 1000 | date:'yyyy-MM-dd HH:mm:ss (Z)' }}</div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
