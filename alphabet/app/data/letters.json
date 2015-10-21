@@ -1,0 +1,189 @@
+{
+    "general": "<p>An alphabet is a standard set of letters (basic written symbols or graphemes) which is used to write one or more languages based on the general principle that the letters represent phonemes (basic significant sounds) of the spoken language. This is in contrast to other types of writing systems, such as syllabaries (in which each character represents a syllable) and logographies (in which each character represents a word, morpheme, or semantic unit).</p><p>The Phoenician script was the first phonemic script and was the ancestor of modern alphabets, including Arabic, Greek, Latin, Cyrillic and Hebrew. According to terminology introduced by Peter T. Daniels, an \"alphabet\" in the narrow sense is one that represents both vowels and consonants as letters equally. The first \"true alphabet\" in this sense was the Greek alphabet, which was developed on the basis of the earlier Phoenician alphabet. In other alphabetic scripts, such as the original Phoenician, Hebrew or Arabic, letters predominantly or exclusively represent only consonants; such a script is also called an abjad. A third type, called abugida or alphasyllabary, is one where vowels are shown by diacritics or modifications of consonantal base letters, as in Devanagari and other South Asian scripts.</p><p>There are dozens of alphabets in use today, the most popular being the Latin alphabet (which was derived from the Greek). Many languages use modified forms of the Latin alphabet, with additional letters formed using diacritical marks. While most alphabets have letters composed of lines (linear writing), there are also exceptions such as the alphabets used in Braille, fingerspelling, and Morse code.</p><p>Alphabets are usually associated with a standard ordering of their letters. This makes them useful for purposes of collation, specifically by allowing words to be sorted in alphabetical order. It also means that their letters can be used as an alternative method of \"numbering\" ordered items, in such contexts as numbered lists. Etymology.</p><p>The English word alphabet came into Middle English from the Late Latin word alphabetum, which in turn originated in the Greek ἀλφάβητος (alphabētos), from alpha and beta, the first two letters of the Greek alphabet. Alpha and beta in turn came from the first two letters of the Phoenician alphabet, and originally meant ox and house respectively. Informally the term \"ABCs\" is sometimes used for the alphabet as in the alphabet song (Now I know my ABCs ...), and knowing one's ABCs for literacy, or as a metaphor for knowing the basics about anything.</p>",
+    "total_words": 1025109,
+    "letters": [
+        {
+            "letter": "A",
+            "general": "A (named a /ˈeɪ/, plural aes) is the 1st letter and the first vowel in the ISO basic Latin alphabet. It is similar to the Ancient Greek letter alpha, from which it derives. The upper-case version consists of the two slanting sides of a triangle, crossed in the middle by a horizontal bar. The lower-case version can be written in two forms: the double-storey a and single-storey ɑ. The latter is commonly used in handwriting and fonts based on it, especially fonts intended to be read by children. It is also found in italic type.",
+            "video": "beT_KcblaBI",
+            "percentage": 8.167,
+            "examples": "apple, actor, ant, Anna and the acrobats, astronaut, amused, arrow, Andrew and the animals"
+        },
+        {
+            "letter": "B",
+            "general": "B or b (pronounced /ˈbiː/, bee) is the 2nd letter in the ISO basic Latin alphabet. In English, it represents the voiced bilabial stop, although it sometimes represents other bilabial sounds when used in other languages.",
+            "video": "RoFz9V_BEG4",
+            "percentage": 1.492,
+            "examples": "bag, belt, bucket, bed, ball, bat, blow, beehive, bee, beans, bottles, boat, barbecue, book, bow, boxes, bike (or bicycle)"
+        },
+        {
+            "letter": "C",
+            "general": "C is the third letter in the English alphabet and a letter of the alphabets of many other writing systems which inherited it from the Latin alphabet. It is also the third letter of the ISO basic Latin alphabet. It is named cee (pronounced /ˈsiː/) in English.",
+            "video": "hSk_fgAAjjs",
+            "percentage": 2.782,
+            "examples": "cat, clocks, cup and saucer, crab, crayons, cliff, clouds, cooker, clown, cabbage, cake, camel, cry, castle"
+        },
+        {
+            "letter": "D",
+            "general": "D (named dee /ˈdiː/) is the 4th letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "U2IEwUFCKzg",
+            "percentage": 4.253,
+            "examples": "duck, dig, dolls, dove, dress, detective, deer, dough, domes, door"
+        },
+        {
+            "letter": "E",
+            "general": "E (named e /ˈiː/, plural ees) is the 5th letter and the second vowel in the modern English alphabet and the ISO basic Latin alphabet. It is the most commonly used letter in many languages, including: Czech, Danish, Dutch, English, French, German, Hungarian, Latin, Norwegian, Spanish, and Swedish.",
+            "video": "9bQzbduuGlQ",
+            "percentage": 12.702,
+            "examples": "Emma, egg, envelope, elephant, expert, exam, explorers, engine"
+        },
+        {
+            "letter": "F",
+            "general": "F (named ef /ˈɛf/) is the 6th letter in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "PzK0-VSZPd4",
+            "percentage": 2.228,
+            "examples": "fan, feathers, flying, French fries, flower, feet, fork, frown, fox, flag, fish, fountain"
+        },
+        {
+            "letter": "G",
+            "general": "G (named gee /ˈdʒiː/) is the 7th letter in the ISO basic Latin alphabet.",
+            "video": "LCAMvnCx2X8",
+            "percentage": 2.015,
+            "examples": "girl, glasses, glass, gloves, glue, guitar, golfer, gold (in the treasure chest), gong"
+        },
+        {
+            "letter": "H",
+            "general": "H (named aitch /ˈeɪtʃ/ or haitch /ˈheɪtʃ/ in Ireland and parts of Australasia; plural aitches or haitches) is the 8th letter in the ISO basic Latin alphabet.",
+            "video": "kfxm1I7L07I",
+            "percentage": 6.094,
+            "examples": "hen, hat, hermit crab, holly, hands, horn, headdress, hair, hare, hills, hood, house"
+        },
+        {
+            "letter": "I",
+            "general": "I (named i /ˈaɪ/, plural ies) is the 9th letter and the third vowel in the ISO basic Latin alphabet.",
+            "video": "mPlrmupZOvI",
+            "percentage": 6.966,
+            "examples": "ink, insect, ill, inside (fridge), injured, Indian lady"
+        },
+        {
+            "letter": "J",
+            "general": "J is the 10th letter in the modern English alphabet and the ISO basic Latin alphabet. Its normal name in English is jay /ˈdʒeɪ/ or jy /ˈdʒaɪ/. When used for the palatal approximant, it may be called yod (/ˈjɒd/ or /ˈjoʊd/) or yot (/ˈjɒt/ or /ˈjoʊt/).",
+            "video": "DrYSjJf0ksc",
+            "percentage": 0.153,
+            "examples": "jam jar, jet plane, jug, joyful, jazz band, juggler, jungle, journal for writing about the journey"
+        },
+        {
+            "letter": "K",
+            "general": "K (named kay /ˈkeɪ/) is the 11th letter of the modern English alphabet and the ISO basic Latin alphabet. In English, the letter K usually represents the voiceless velar plosive.",
+            "video": "FgzKC1yDGFo",
+            "percentage": 0.772,
+            "examples": "kit, kiss, kettle, kite, key, keyhole, king, kilt, kin or kinfolk (sisters), kitchen, kilt, kip ( 'get some kip' )"
+        },
+        {
+            "letter": "L",
+            "general": "L (named el /ˈɛl/) is the 12th letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "OAipmwVQQ58",
+            "percentage": 4.025,
+            "examples": "leaf, ladder, lunch, lightning, log, lips, legs, lamp, loud, learn, lady, look out of the window"
+        },
+        {
+            "letter": "M",
+            "general": "M (named em /ˈɛm/) is the 13th letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "6QUSDu2JIY0",
+            "percentage": 2.406,
+            "examples": "milk, map, meal, mixer, moon, moth, mermaid, mouth, mouse, muesli, lawn mower, mud, movie, monkey, magician"
+        },
+        {
+            "letter": "N",
+            "general": "N (named en /ˈɛn/) is the 14th letter in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "BJf3NgEJ6Ds",
+            "percentage": 6.749,
+            "examples": "nest, net, nuts, noisy, nose, nobility (noble), naughty (or not?), night, nurse, necklace, new clothes"
+        },
+        {
+            "letter": "O",
+            "general": "O (named o /ˈoʊ/, plural oes) is the 15th letter and the second-to-last vowel in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "weQXyimKUPA",
+            "percentage": 7.507,
+            "examples": "orange, odd shape, on top of (acrobats), ostrich, on board, observe (to watch carefully), otter, octopus"
+        },
+        {
+            "letter": "P",
+            "general": "P (named pee /ˈpiː/ ) is the 16th letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "stMIusugnvk",
+            "percentage": 1.929,
+            "examples": "pan, pen, pencil, pins, puffin, people having a picnic, pie, plums, parcel or package, puzzle, eye patch, purse, purple parachute, palace, piano and piano stool, puppet and puppeteer, person pointing"
+        },
+        {
+            "letter": "Q",
+            "general": "Q (named cue /ˈkjuː/) is the 17th letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "ni6kpkaWyOI",
+            "percentage": 0.095,
+            "examples": "queen, quilt, quiet, king and queen, \"quack, quack\", qualification, quick, quarter, quartz pendant"
+        },
+        {
+            "letter": "R",
+            "general": "R (named ar/or /ɑr/) is the 18th letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "B3cQWN6QP5s",
+            "percentage": 5.987,
+            "examples": "rat, rip, raincloud and rain, rock band, radio, rope, rooftops, rodents, ring, run, rabbit, remember"
+        },
+        {
+            "letter": "S",
+            "general": "S (named ess /ˈɛs/, plural esses) is the 19th letter in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "WnpgmXZuIfU",
+            "percentage": 6.327,
+            "examples": "snake, skip, snail, spots, slide, swing, snow, swim, splash, serve, stork, star, sauce, strings, sailor, statue, soup, sunny, stormy, squirrel, station"
+        },
+        {
+            "letter": "T",
+            "general": "T (named tee /ˈtiː/) is the 20th letter in the modern English alphabet and the ISO basic Latin alphabet. It is the most commonly used consonant and the second most common letter in English language texts",
+            "video": "WDjlIdI_Wdc",
+            "percentage": 9.056,
+            "examples": "teddy, tent, tin, tomato, train, table and tablecloth, tie, tray, tooth and teeth, toadstools, twins, toes, tube, tears, tiers of the cake, trunk, touch, tow truck, toy, television, treasure chest and treasure, tree"
+        },
+        {
+            "letter": "U",
+            "general": "U (named u /ˈjuː/, plural ues) is the 21st letter and the fifth vowel in the ISO basic Latin alphabet.",
+            "video": "CUiCcn9lnhQ",
+            "percentage": 2.758,
+            "examples": "the umbrella is up, under the branches, up high in the sky, underneath the clothes, upside down, uncle, unbelievable, understanding"
+        },
+        {
+            "letter": "V",
+            "general": "V (named vee /ˈviː/) is the 22nd letter in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "GzMsHJGhXYQ",
+            "percentage": 0.978,
+            "examples": "violin, sports vest, violet, removal van, vegetables, ice is very cold and fire is very hot, velvet cloaks, look at the view through the window, vase, the vet's waiting room"
+        },
+        {
+            "letter": "W",
+            "general": "W (named double-u, plural double-ues) is the 23rd letter in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "jJ9zokXKszM",
+            "percentage": 2.360,
+            "examples": "spider's web, windy, water, window, wet washing, wigs, weaving, world, wiggly worm, wild animal, words, wardrobe, watch, women wandering around the market, woman wondering about the weather"
+        },
+        {
+            "letter": "X",
+            "general": "X (named ex /ˈɛks/, plural exes) is the 24th letter in the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "_eXZ2w_Ent4",
+            "percentage": 0.150,
+            "examples": "fox, mixer, box, taste the mixture and feel the texture, fix the vase, wax crayons, candle wax, the vixen has six cubs in the box, lay the concrete mix, boxes, read the text (book), lunch is next"
+        },
+        {
+            "letter": "Y",
+            "general": "Y (named wye /ˈwaɪ/, plural wyes) is the 25th and next-to-last letter in the modern English alphabet and the ISO basic Latin alphabet. In the English writing system it represents either a vowel or a consonant.",
+            "video": "4gQ6wXCFD48",
+            "percentage": 1.974,
+            "examples": "yawn, yoghurt (or yogurt), yo-yo, yellow pages, yellow roses, yacht, yew tree, yak"
+        },
+        {
+            "letter": "Z",
+            "general": "Z (named zed /ˈzɛd/' or zee /ˈziː/) is the 26th and final letter of the modern English alphabet and the ISO basic Latin alphabet.",
+            "video": "cR6N3jwfCXg",
+            "percentage": 0.074,
+            "examples": "zigzag, the jet 'zooms' up in the sky, zip or zipper, the bee goes \"zzzzzz\", zebras"
+        }
+    ],
+    "notes": "<div>Notes:</div><div>All of the text was taken from <a href=\"https://en.wikipedia.org/wiki/Alphabet\" target=\"_blank\">Wikipedia</a>.</div><div>The number of words in the English language is: 1,025,109.8. This is the estimate by the <a href=\"http://www.languagemonitor.com/\" target=\"_blank\">Global Language Monitor</a> on January 1, 2014.</div><div>The relative frequencies of letters in the English language is taken from <a href=\"http://en.algoritmy.net/article/40379/Letter-frequency-English\" target=\"_blank\">Pavel Mička's website</a>, which cites Robert Lewand's Cryptological Mathematics.</div><div>The word examples are taken from the book: \"The Alphabet Letters, Sounds, Pictures and Words\" by <a href=\"http://www.phonicsinternational.com/\" target=\"_blank\">Phonics International Ltd</a>."
+}

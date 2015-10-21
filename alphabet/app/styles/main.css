@@ -1,0 +1,111 @@
+body, html {
+    background: #FFFFFF;
+}
+
+.container {
+    padding: 10px 25px; 
+}
+
+.header .container img {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.main h2 {
+    border-bottom: 2px solid #FF3B4E;
+    border-top: 2px solid #FF3B4E;
+    color: #FF3B4E;
+    font-size: 64px;
+    margin: 0 0 30px 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.general {
+    padding: 0 36px;
+    width: 96%;
+    color: #4F78B9;
+}
+
+.letters {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.letter {
+    float: left;
+    margin: 10px;
+}
+
+.letter img {
+    width: 128px;
+    height: 128px;
+}
+
+.letter-details {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.key {
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    color: #FF3B4E;
+    text-align: center;
+}
+
+.detail {
+    padding: 10px 0 30px 0;
+    font-size: 20px;
+    color: #4F78B9;
+    text-align: center;
+}
+
+.video {
+    height: 450px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.iframe {
+    overflow: hidden;
+}
+
+.back-btn img {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 200px;
+}
+
+.notes {
+    padding: 30px 36px 0px 36px;
+    width: 96%;
+    color: #4F78B9;
+}
+
+.notes div {
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.clear-fix {
+    clear: both;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- Include the core AngularJS library -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+        <title>Alphabet</title>
+    </head>
+    <body ng-app="Alphabet">
+        <div class="header">
+            <div class="container">
+                <img src= "images/alphabet.png" width="100%">
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <div ng-view></div>
+            </div>
+        </div>
+
+        <!-- Modules -->
+        <script src="scripts/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="scripts/controllers/alphabetController.js"></script>
+        <script src="scripts/controllers/letterController.js"></script>
+
+        <!-- Directives -->
+        <script src="scripts/directives/youtube.js"></script>
+        
+        <!-- Services -->
+        <script src="scripts/services/letters.js"></script>
+
+        <!-- Filters -->
+        <script src="scripts/filters/unsafe.js"></script>
+    </body>
+</html>
