@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('The Best Sellers', []).controller('MainController', ['$scope', function($scope) {
+angular.module('The Best Sellers').controller('MainController', ['$scope', function($scope) {
     $scope.title = 'Amazon 10 Best Sellers in Books';
     $scope.comment = 'On October 5, 2015';
     $scope.products = [
