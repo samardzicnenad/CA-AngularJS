@@ -19,3 +19,10 @@ Web page shows short bios (taken from wikipedia) of the four most important memb
 From the http://www.openweathermap.org/ , using their API key (you have to register on the website in order to get one...it's free) I am showing the most recent weather information for the largest 22 cities (by population) in the world.  
 Data is received in JSON format.  
 The units are metric.
+#### Alphabet page(s)
+- The assignment introduces the usage of views/routing
+- Also, a custom filter is built
+
+The application represents a short guide through the English alphabet.  
+The main page provides a link for each letter which loads the appropriate view.  
+The app utilizes a custom directive and a custome service. The directive embeds youtube video to a page. The service is used to read the data in JSON format from the local file.
