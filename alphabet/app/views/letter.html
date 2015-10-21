@@ -1,0 +1,16 @@
+<h2>Letter "{{ letter.letter }}"</h2>
+<div class="letter-details">
+        <div class="detail">{{ letter.general }}</div>
+        <youtube video="letter.video"></youtube>
+        <div class="key">Number of words in English language starting with the letter {{ letter.letter }}:</div>
+        <div class="detail">~ {{ letter.total_for_letter }}</div>
+        <div class="key">Share of words in English language starting with the letter {{ letter.letter }}:</div>
+        <div class="detail">~ {{ letter.percentage }}%</div>
+        <div class="key">Examples of words/phrases in English language starting with the letter {{ letter.letter }}:</div>
+        <div class="detail">{{ letter.examples }}</div>
+</div>
+<div class="back-btn">
+    <a href="#/">
+        <img ng-src="images/back.png">
+    </a>
+</div>
