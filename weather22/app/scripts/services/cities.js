@@ -55,7 +55,6 @@ angular.module('Weather 22').factory('cities', ['$http', function($http) {
         return data;
     })
     .error(function(err) {
-        console.log("E");
         return err;
     });
 }]);
