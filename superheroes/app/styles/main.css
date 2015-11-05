@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Chlorinar';
+    src: url('../fonts/CHLORINR.TTF') format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+}
+
+html {
+    background: #21AE4E;
+}
+
+.header {
+    background: #231F20;
+}
+
+.header:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.header .container {
+    width: 100%;
+    display: inline-flex;
+}
+
+.header .container img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #F3C469;
+}
+
+.header .title {
+    font-size: 6.2em;
+    font-weight: bold;
+    font-family: Chlorinar;
+    color: #21AE4E;
+}
+
+.main {
+    background: #FFFFFF;
+}
+
+.left {
+    width: 15%;
+    float: left;
+}
+
+.center {
+    width: 70%;
+    margin: auto;
+    display: inline;
+    text-align: center;
+}
+
+.right {
+    width: 15%;
+    float: right;
+}
+
+.right a {
+    float: right;
+}
+
+.menu {
+    background: #F3C469;
+    height: 40px;
+    width: 100%;
+}
+
+.sub {
+    float: left;
+    width: 9%;
+    color: #231F20;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0;
+}

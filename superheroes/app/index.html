@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- Include the core AngularJS library -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+        <title>Novak's Superheroes</title>
+    </head>
+    <body ng-app="Superheroes">
+        <div class="header">
+            <div class="container">
+                <div class="left">
+                    <a href="http://www.comicvine.com/" target="_blank">
+                        <img src="images/logo_lb.jpg" />
+                    </a>
+                </div>
+                <div class="center">
+                    <div class="center title">NOVAK'S SUPERHEROES PAGE</div>
+                </div>
+                <div class="right">
+                    <a href="http://www.comicvine.com/" target="_blank">
+                        <img src="images/logo_rb.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="sub">
+                    <a href="#/">main</a>
+                </div>
+                <div class="sub">
+                    <a href="#/publishers/">publishers</a>
+                </div>
+                <div class="sub">
+                    <a href="#/volumes/">volumes</a>
+                </div>
+                <div class="sub">
+                    <a href="#/issues/">issues</a>
+                </div>
+                <div class="sub">
+                    <a href="#/teams/">teams</a>
+                </div>
+                <div class="sub">
+                    <a href="#/characters/">characters</a>
+                </div>
+                <div class="sub">
+                    <a href="#/origins/">origins</a>
+                </div>
+                <div class="sub">
+                    <a href="#/powers/">powers</a>
+                </div>
+                <div class="sub">
+                    <a href="#/concepts/">concepts</a>
+                </div>
+                <div class="sub">
+                    <a href="#/objects/">objects</a>
+                </div>
+                <div class="sub">
+                    <a href="#/locations/">locations</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main" ng-controller="MainControler">
+            <div class="container">
+                <div ng-view></div>
+            </div>
+        </div>
+
+        <!-- Modules -->
+        <script src="scripts/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="scripts/controllers/main.js"></script>
+
+        <!-- Directives -->
+
+        <!-- Services -->
+        <script src="scripts/services/comicVine.js"></script>
+        <script src="scripts/services/apiKey.js"></script>
+
+        <!-- Filters -->
+        
+    </body>
+</html>
