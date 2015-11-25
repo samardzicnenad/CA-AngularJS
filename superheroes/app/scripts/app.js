@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('Superheroes', ['ngRoute'])
+angular.module('Superheroes', ['ngRoute', 'ui.bootstrap'])
 .config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            controller: 'MainControler',
+            controller: 'NovakControler',
             templateUrl: 'views/main.html'
         })
         .when('/publishers/', {

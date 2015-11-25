@@ -1,80 +1,191 @@
+/* Defining elements */
 @font-face {
     font-family: 'Chlorinar';
     src: url('../fonts/CHLORINR.TTF') format('truetype'); /* Safari, Android, iOS */
     font-weight: bold;
 }
+/*********************/
 
+/* Styling - global tags */
 html {
-    background: #21AE4E;
+    #background: #FFFFFF;
 }
 
-.header {
-    background: #231F20;
+body {
+    font-size: 16px;
+    line-height: initial;
+    width: 80%;
+    margin: 5px auto;
 }
 
-.header:after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
-.header .container {
-    width: 100%;
-    display: inline-flex;
-}
-
-.header .container img {
-    height: 200px;
-    width: 200px;
-    margin: 10px;
-    border-style: solid;
-    border-color: #F3C469;
-}
-
-.header .title {
-    font-size: 6.2em;
-    font-weight: bold;
-    font-family: Chlorinar;
+a {
     color: #21AE4E;
 }
 
-.main {
-    background: #FFFFFF;
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+/*************************/
+
+/* Styling - specific tags */
+.sh-header .sh-container {
+    width: 100%;
+    display: inline-flex;
+    #border-width: 3px;
+    border-style: solid;
+    border-color: #21AE4E;
+    margin-left: -3px;
 }
 
-.left {
+.sh-header .sh-container .sh-left {
     width: 15%;
     float: left;
 }
 
-.center {
+.sh-header .sh-container .sh-center {
     width: 70%;
     margin: auto;
     display: inline;
     text-align: center;
 }
 
-.right {
+.sh-header .sh-container .sh-center .title {
+    font-size: 6.0em;
+    font-weight: bold;
+    font-family: Chlorinar;
+    color: #21AE4E;
+}
+
+.sh-header .sh-container .sh-right {
     width: 15%;
     float: right;
 }
 
-.right a {
+.sh-header .sh-container .sh-right a {
     float: right;
 }
 
-.menu {
-    background: #F3C469;
-    height: 40px;
-    width: 100%;
+.sh-header .sh-container img {
+    height: 150px;
+    #width: 150px;
+    margin: 10px;
+    #border: 3px;
+    #border-style: solid;
+    #border-color: #F3C469;
 }
 
-.sub {
+.sh-header .sh-menu {
+    #background: #FFFFFF;
+    #height: 40px;
+    #width: 100%;
+}
+
+.sh-header .sh-menu .sh-sub {
     float: left;
     width: 9%;
-    color: #231F20;
-    font-weight: bold;
-    font-size: 20px;
+    #color: #231F20;
+    #font-weight: bold;
+    #font-size: 20px;
     text-align: center;
     padding: 8px 0;
+}
+
+.sh-header:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.sh-main {
+    #width: 44%;
+    margin: 10px auto;
+    #background: #231F20;
+    #background: #FFFFFF;
+    #border: 3px;
+    #border-style: solid;
+    #border-color: #F3C469;
+}
+
+/*
+.caption {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 3em;
+    font-weight: bold;
+    background: #21AE4E;
+    font-family: arial;
+}
+*/
+
+.sh-portrait {
+    width: 750px;
+    height: 1000px;
+    max-width: initial;
+    text-align: center;
+    margin: auto;
+}
+
+.sh-landscape {
+    width: 1250px;
+    height: 1000px;
+    max-width: initial;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container:before {
+    content: none;
+}
+
+.offsetspan6 {
+    display: inline-block;
+    float: none;
+    margin: 20px;
+}
+
+.carousel {
+    margin: 0;
+}
+
+.carousel-caption {
+    padding: 10px;
+}
+
+.big {
+    font-size: 1.5em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nobig {
+    font-size: 0.9em;
+}
+
+.carousel-caption .distant {
+    margin: 3px 0;
+}
+
+.carousel .aqm {
+    color: aquamarine;
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+.nobold {
+    font-weight: normal;
+}
+
+p.car-cap {
+    margin-bottom: 5px;
 }

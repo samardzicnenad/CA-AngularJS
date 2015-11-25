@@ -1,69 +1,70 @@
 <!doctype html>
 <html>
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="styles/main.css" rel="stylesheet">
         <!-- Include the core AngularJS library -->
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+        <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.4.js"> </script>
         <title>Novak's Superheroes</title>
     </head>
     <body ng-app="Superheroes">
-        <div class="header">
-            <div class="container">
-                <div class="left">
+        <div class="sh-header">
+            <div class="sh-container">
+                <div class="sh-left">
                     <a href="http://www.comicvine.com/" target="_blank">
                         <img src="images/logo_lb.jpg" />
                     </a>
                 </div>
-                <div class="center">
-                    <div class="center title">NOVAK'S SUPERHEROES PAGE</div>
+                <div class="sh-center">
+                    <div class="sh-center title">NOVAK'S SUPERHEROES</div>
                 </div>
-                <div class="right">
+                <div class="sh-right">
                     <a href="http://www.comicvine.com/" target="_blank">
                         <img src="images/logo_rb.jpg" />
                     </a>
                 </div>
             </div>
-            <div class="menu">
-                <div class="sub">
+            <div class="sh-menu">
+                <div class="sh-sub">
                     <a href="#/">main</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/publishers/">publishers</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/volumes/">volumes</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/issues/">issues</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/teams/">teams</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/characters/">characters</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/origins/">origins</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/powers/">powers</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/concepts/">concepts</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/objects/">objects</a>
                 </div>
-                <div class="sub">
+                <div class="sh-sub">
                     <a href="#/locations/">locations</a>
                 </div>
             </div>
         </div>
 
-        <div class="main" ng-controller="MainControler">
-            <div class="container">
+        <div class="sh-main" ng-controller="MainControler">
+            <div class="sh-container">
                 <div ng-view></div>
             </div>
         </div>
@@ -73,6 +74,8 @@
 
         <!-- Controllers -->
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/novak.js"></script>
+        <script src="scripts/controllers/issues.js"></script>
 
         <!-- Directives -->
 
