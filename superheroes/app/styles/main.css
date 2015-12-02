@@ -1,0 +1,195 @@
+/* Defining elements */
+@font-face {
+    font-family: 'Chlorinar';
+    src: url('../fonts/CHLORINR.TTF') format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+}
+/*********************/
+
+/* Styling - global tags */
+
+html {
+    background: #231F20;
+}
+
+body {
+    font-size: 16px;
+    line-height: initial;
+    width: 80%;
+    min-width: 1476px;
+    margin: 5px auto;
+}
+
+a {
+    color: #21AE4E;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+/*************************/
+
+/* Styling - specific tags */
+.sh-header .sh-container {
+    width: 100%;
+    display: inline-flex;
+    background: #231F20;
+    border-style: solid;
+    border-color: #EAB229;
+    margin-left: -3px;
+}
+
+.sh-header .sh-container .sh-left {
+    width: 15%;
+    float: left;
+}
+
+.sh-header .sh-container .sh-center {
+    width: 70%;
+    margin: auto;
+    display: inline;
+    text-align: center;
+}
+
+.sh-header .sh-container .sh-center .title {
+    font-size: 6.0em;
+    font-weight: bold;
+    font-family: Chlorinar;
+    color: #EAB229;
+}
+
+.sh-header .sh-container .sh-right {
+    width: 15%;
+    float: right;
+}
+
+.sh-header .sh-container .sh-right a {
+    float: right;
+}
+
+.sh-header .sh-container img {
+    height: 120px;
+    margin: 10px;
+}
+
+.sh-header .sh-menu .sh-sub {
+    float: left;
+    width: 9.09%;
+    text-align: center;
+    padding: 8px 0;
+    background: #231F20;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-shadow: 1px 1px #EAB229;
+}
+
+/* Styling - customizing ui-bootstrap */
+.sh-body .sh-container .container {
+    width: 100%;
+    text-align: center;
+    background: #231F20;
+}
+
+.sh-body .sh-container .container .offsetspan6 {
+    display: inline-block;
+    float: none;
+    margin: 5px 0px 0px 0px;
+}
+
+.sh-body .sh-container .container .offsetspan6 .carousel {
+    margin: 0;
+}
+
+.sh-body .sh-container .container .offsetspan6 .carousel .carousel-indicators li {
+    background: #EAB229;
+}
+
+.sh-body .sh-container .container .offsetspan6 .carousel .carousel-indicators .active {
+    background: #AFEEEE;
+}
+
+.carousel-caption {
+    margin: 3px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s;
+}
+
+.carousel-caption:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+character:hover +.carousel-caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+concept:hover +.carousel-caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*
+.carousel-control {
+    background-image: url("../images/logos/2357.png");
+    opacity: 1;
+}
+*/
+
+/* Styling - images */
+.sh-portrait {
+    width: 750px;
+    height: 1000px;
+    max-width: initial;
+    text-align: center;
+    margin: auto;
+    border: solid;
+    border-color: #EAB229;
+}
+
+.sh-landscape {
+    width: 1250px;
+    height: 1000px;
+    max-width: initial;
+    text-align: center;
+    margin: auto;
+    border: solid;
+    border-color: #EAB229;
+}
+
+/* Styling - specific tags - details */
+.small {
+    font-size: 0.7em;
+}
+
+.big {
+    font-size: 1.5em;
+}
+
+.nobig {
+    font-size: 0.9em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nobold {
+    font-weight: normal;
+}
+
+p.car-cap {
+    margin-bottom: 5px;
+}
+
+.carousel .aqm {
+    color: aquamarine;
+}
+
+.carousel-caption .distant {
+    margin: 3px 0;
+}
+/*************************/

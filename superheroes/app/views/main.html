@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="offsetspan6">
+        <carousel interval="carouselInterval">
+            <slide ng-repeat="cc in ccs">
+                <character ng-if="cc.type=='character'">
+                    <img ng-src="{{cc.image}}" class="sh-portrait"/>
+                </character>
+                <concept ng-if="cc.type=='concept'">
+                    <img ng-src="{{cc.image}}" class="sh-landscape"/>
+                </concept>
+                <div class="carousel-caption">
+                    <p class="car-cap">
+                        <character ng-if="cc.type=='character'" class='big bold'> {{ cc.real_name }} <subcharacter class='small nobold'>a.k.a. </subcharacter></character>
+                        <a ng-href=" {{ cc.site_detail_url }} " target="_blank" class='big bold'> {{ cc.name }} </a>
+                    </p>
+                    <p class='nobig aqm'>
+                        <character ng-if="cc.type=='character'">Birth date: {{ cc.birth }}; </character>Powers originate from: {{ cc.origin }}
+                    </p>
+                    <character ng-if="cc.type=='character'">
+                        <p class='nobig aqm'> Aliases: {{ cc.aliases }} </p>
+                        <p class='nobig bold distant'> {{ cc.deck }} </p>
+                    </character>
+                    <concept ng-if="cc.type=='concept'">
+                        <p class='nobig bold distant'> {{ cc.deck }} </p>
+                        <p ng-repeat="incarnation in cc.concept_incarnations"  class='nobig'>
+                            <subconcept class='nobig bold'>&bull; {{ incarnation.real_name }} </subconcept>
+                            <subconcept class='nobig nobold aqm'>
+                                <subconcept ng-if="incarnation.aliases">(</subconcept>
+                                {{ incarnation.aliases }}
+                                <subconcept ng-if="incarnation.aliases">); </subconcept>
+                            </subconcept>
+                            <subconcept ng-if="incarnation.birth != 'unnecessary'" class='nobig nobold aqm'>Birth date: {{ incarnation.birth }} - </subconcept>
+                            <subconcept class='nobig nobold'> {{ incarnation.deck }} </subconcept>
+                        </p>
+                    </concept>
+                    <p class='nobig aqm'> Publisher: {{ cc.publisher }} </p>
+                    <p class='nobig aqm'> First Appearance: {{ cc.date }}, <a ng-href=" {{ cc.issue_url }} " target="_blank">{{ cc.issue }}</a></p>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+</div>
