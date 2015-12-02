@@ -7,14 +7,16 @@
 /*********************/
 
 /* Styling - global tags */
+
 html {
-    #background: #FFFFFF;
+    background: #231F20;
 }
 
 body {
     font-size: 16px;
     line-height: initial;
     width: 80%;
+    min-width: 1476px;
     margin: 5px auto;
 }
 
@@ -32,9 +34,9 @@ a:hover, a:visited, a:link, a:active
 .sh-header .sh-container {
     width: 100%;
     display: inline-flex;
-    #border-width: 3px;
+    background: #231F20;
     border-style: solid;
-    border-color: #21AE4E;
+    border-color: #EAB229;
     margin-left: -3px;
 }
 
@@ -54,7 +56,7 @@ a:hover, a:visited, a:link, a:active
     font-size: 6.0em;
     font-weight: bold;
     font-family: Chlorinar;
-    color: #21AE4E;
+    color: #EAB229;
 }
 
 .sh-header .sh-container .sh-right {
@@ -67,64 +69,85 @@ a:hover, a:visited, a:link, a:active
 }
 
 .sh-header .sh-container img {
-    height: 150px;
-    #width: 150px;
+    height: 120px;
     margin: 10px;
-    #border: 3px;
-    #border-style: solid;
-    #border-color: #F3C469;
-}
-
-.sh-header .sh-menu {
-    #background: #FFFFFF;
-    #height: 40px;
-    #width: 100%;
 }
 
 .sh-header .sh-menu .sh-sub {
     float: left;
-    width: 9%;
-    #color: #231F20;
-    #font-weight: bold;
-    #font-size: 20px;
+    width: 9.09%;
     text-align: center;
     padding: 8px 0;
+    background: #231F20;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-shadow: 1px 1px #EAB229;
 }
 
-.sh-header:after {
-    clear: both;
-    content: "";
-    display: block;
+/* Styling - customizing ui-bootstrap */
+.sh-body .sh-container .container {
+    width: 100%;
+    text-align: center;
+    background: #231F20;
 }
 
-.sh-main {
-    #width: 44%;
-    margin: 10px auto;
-    #background: #231F20;
-    #background: #FFFFFF;
-    #border: 3px;
-    #border-style: solid;
-    #border-color: #F3C469;
+.sh-body .sh-container .container .offsetspan6 {
+    display: inline-block;
+    float: none;
+    margin: 5px 0px 0px 0px;
+}
+
+.sh-body .sh-container .container .offsetspan6 .carousel {
+    margin: 0;
+}
+
+.sh-body .sh-container .container .offsetspan6 .carousel .carousel-indicators li {
+    background: #EAB229;
+}
+
+.sh-body .sh-container .container .offsetspan6 .carousel .carousel-indicators .active {
+    background: #AFEEEE;
+}
+
+.carousel-caption {
+    margin: 3px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s;
+}
+
+.carousel-caption:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+character:hover +.carousel-caption {
+    visibility: visible;
+    opacity: 1;
+}
+
+concept:hover +.carousel-caption {
+    visibility: visible;
+    opacity: 1;
 }
 
 /*
-.caption {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 3em;
-    font-weight: bold;
-    background: #21AE4E;
-    font-family: arial;
+.carousel-control {
+    background-image: url("../images/logos/2357.png");
+    opacity: 1;
 }
 */
 
+/* Styling - images */
 .sh-portrait {
     width: 750px;
     height: 1000px;
     max-width: initial;
     text-align: center;
     margin: auto;
+    border: solid;
+    border-color: #EAB229;
 }
 
 .sh-landscape {
@@ -133,53 +156,25 @@ a:hover, a:visited, a:link, a:active
     max-width: initial;
     text-align: center;
     margin: auto;
+    border: solid;
+    border-color: #EAB229;
 }
 
-.container {
-    width: 100%;
-    text-align: center;
-}
-
-.container:before {
-    content: none;
-}
-
-.offsetspan6 {
-    display: inline-block;
-    float: none;
-    margin: 20px;
-}
-
-.carousel {
-    margin: 0;
-}
-
-.carousel-caption {
-    padding: 10px;
+/* Styling - specific tags - details */
+.small {
+    font-size: 0.7em;
 }
 
 .big {
     font-size: 1.5em;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .nobig {
     font-size: 0.9em;
 }
 
-.carousel-caption .distant {
-    margin: 3px 0;
-}
-
-.carousel .aqm {
-    color: aquamarine;
-}
-
-.small {
-    font-size: 0.7em;
+.bold {
+    font-weight: bold;
 }
 
 .nobold {
@@ -189,3 +184,12 @@ a:hover, a:visited, a:link, a:active
 p.car-cap {
     margin-bottom: 5px;
 }
+
+.carousel .aqm {
+    color: aquamarine;
+}
+
+.carousel-caption .distant {
+    margin: 3px 0;
+}
+/*************************/
