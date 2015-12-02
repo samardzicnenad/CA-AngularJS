@@ -16,9 +16,19 @@ Web page shows short bios (taken from wikipedia) of the four most important memb
 #### [**Weather22 page**](weather22/app)
 - The assignment introduces the usage of a service
 
-From the http://www.openweathermap.org/ , using their API key (you have to register on the website in order to get one...it's free) I am showing the most recent weather information for the largest 22 cities (by population) in the world.  
+From the http://www.openweathermap.org/, using their API key (you have to register on the website in order to get one...it's free), I am showing the most recent weather information for the largest 22 cities (by population) in the world.  
+  
+Get your openweathermap API key at [**http://openweathermap.org/appid**](http://openweathermap.org/appid)  
+Then create a file on the following path:  
+> [your path]/CA-AngularJS/weather22/app/config/no_pasaran.json  
+
+as:  
+> {  
+      "owm_api_key": "[your openweathermap API key]"  
+  }  
+      
 Data is received in JSON format.  
-The units are metric.
+The units are metric. 
 #### [**Alphabet page(s)**](alphabet/app)
 - The assignment introduces the usage of views/routing
 - Also, a custom filter is built
@@ -26,3 +36,5 @@ The units are metric.
 The application represents a short guide through the English alphabet.  
 The main page provides a link for each letter which loads the appropriate view.  
 The app utilizes a custom directive and a custome service. The directive embeds youtube video to a page. The service is used to read the data in JSON format from the local file.
+#### [**Novak's superheroes page**](superheroes/app)
+I wanted to create an application that would work on live public API. The direct inspiration was Novak's interest in comic characters (Novak is my 4 year old son). So, I have found an excellent API provided by [**Comic Vine**](http://www.comicvine.com/api/)
