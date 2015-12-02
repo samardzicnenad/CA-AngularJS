@@ -17,7 +17,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/more-fun-comics-73/4000-116392/',
         date: 'November 1, 1941',
         type: 'character',
-        image: 'images/2357.jpg'
+        image: 'images/2357P.jpg'
     },
     {
         id: 1699,
@@ -34,7 +34,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/detective-comics-27-the-case-of-the-chemical-syndi/4000-105764/',
         date: 'May 1, 1939',
         type: 'character',
-        image: 'images/1699.jpg'
+        image: 'images/1699P.jpg'
     },
     {
         id: 1442,
@@ -51,7 +51,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/captain-america-comics-1-meet-captain-america/4000-107870/',
         date: 'March 1, 1941',
         type: 'character',
-        image: 'images/1442.jpg'
+        image: 'images/1442P.jpg'
     },
     {
         id: 56321,
@@ -99,7 +99,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/flash-comics-1-origin-of-the-flash/4000-116418/',
         date: 'January 1, 1940',
         type: 'concept',
-        image: 'images/56321.jpg'
+        image: 'images/56321L.jpg'
     },
     {
         id: 41148,
@@ -159,7 +159,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/all-american-comics-16-the-origin-of-the-green-lan/4000-123898/',
         date: 'July 1, 1940',
         type: 'concept',
-        image: 'images/41148.jpg'
+        image: 'images/41148L.jpg'
     },
     {
         id: 1696,
@@ -176,7 +176,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/the-batman-adventures-12-batgirl-day-one/4000-37736/',
         date: 'September 1, 1993',
         type: 'character',
-        image: 'images/1696.jpg'
+        image: 'images/1696P.jpg'
     },
     {
         id: 8337,
@@ -193,7 +193,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/flash-comics-1-origin-of-the-flash/4000-116418/',
         date: 'January 1, 1940',
         type: 'character',
-        image: 'images/8337.jpg'
+        image: 'images/8337P.jpg'
     },
     {
         id: 1702,
@@ -210,7 +210,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/batman-1-the-legend-of-the-batman-who-he-is-and-ho/4000-105811/',
         date: 'April 1, 1940',
         type: 'character',
-        image: 'images/1702.jpg'
+        image: 'images/1702P.jpg'
     },
     {
         id: 8332,
@@ -227,7 +227,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/adventure-comics-210/4000-128752/',
         date: 'March 1, 1955',
         type: 'character',
-        image: 'images/8332.jpg'
+        image: 'images/8332P.jpg'
     },
     {
         id: 41952,
@@ -244,7 +244,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/superman-4-superman-versus-luthor/4000-110651/',
         date: 'March 1, 1940',
         type: 'character',
-        image: 'images/41952.jpg'
+        image: 'images/41952P.jpg'
     },
     {
         id: 4885,
@@ -261,7 +261,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/detective-comics-58-one-of-the-most-perfect-frame-/4000-112089/',
         date: 'December 1, 1941',
         type: 'character',
-        image: 'images/4885.jpg'
+        image: 'images/4885P.jpg'
     },
     {
         id: 3718,
@@ -278,7 +278,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/detective-comics-140-the-riddler/4000-112214/',
         date: 'October 1, 1948',
         type: 'character',
-        image: 'images/3718.jpg'
+        image: 'images/3718P.jpg'
     },
     {
         id: 56363,
@@ -326,7 +326,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/detective-comics-38-introducing-robin-the-boy-wond/4000-111907/',
         date: 'April 1, 1940',
         type: 'concept',
-        image: 'images/56363.jpg'
+        image: 'images/56363L.jpg'
     },
     {
         id: 1443,
@@ -343,7 +343,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/amazing-fantasy-15-spider-man/4000-105342/',
         date: 'August 15, 1962',
         type: 'character',
-        image: 'images/1443.jpg'
+        image: 'images/1443P.jpg'
     },
     {
         id: 1807,
@@ -360,7 +360,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/action-comics-1-superman-champion-of-the-oppressed/4000-105403/',
         date: 'June 1, 1938',
         type: 'character',
-        image: 'images/1807.jpg'
+        image: 'images/1807P.jpg'
     },
     {
         id: 2048,
@@ -377,7 +377,7 @@ angular.module('Superheroes').controller('NovakControler', ['$scope', function($
         issue_url: 'http://www.comicvine.com/all-star-comics-8/4000-116412/',
         date: 'December 1, 1941',
         type: 'character',
-        image: 'images/2048.jpg'
+        image: 'images/2048P.jpg'
     }
     ];
 }]);
