@@ -3,3 +3,6 @@
 /.tmp
 /.sass-cache
 /bower_components
+
+# not to be pushed - confidential
+no_pasaran.json
