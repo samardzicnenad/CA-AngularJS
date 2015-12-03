@@ -37,4 +37,6 @@ The application represents a short guide through the English alphabet.
 The main page provides a link for each letter which loads the appropriate view.  
 The app utilizes a custom directive and a custome service. The directive embeds youtube video to a page. The service is used to read the data in JSON format from the local file.
 #### [**Novak's superheroes page**](superheroes/app)
-I wanted to create an application that would work on live public API. The direct inspiration was Novak's interest in comic characters (Novak is my 4 year old son). So, I have found an excellent API provided by [**Comic Vine**](http://www.comicvine.com/api/)
+I wanted to create an application that would work on live public API. The direct inspiration was Novak's (my 4 year old son) interest in comic characters. So, I have found an excellent API provided by [**Comic Vine**](http://www.comicvine.com/api/).  
+The main page is a carousel of Novak's favorite characters/concepts read from the controller file. The data has been pulled locally because the API doesn't support single call for multiple objects of various types.  
+The rest of the pages will utilize Comic Vine's APIs.
