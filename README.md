@@ -39,4 +39,13 @@ The app utilizes a custom directive and a custome service. The directive embeds 
 #### [**Novak's superheroes page**](superheroes/app)
 I wanted to create an application that would work on live public API. The direct inspiration was Novak's (my 4 year old son) interest in comic characters. So, I have found an excellent API provided by [**Comic Vine**](http://www.comicvine.com/api/).  
 The main page is a carousel of Novak's favorite characters/concepts read from the controller file. The data has been pulled locally because the API doesn't support single call for multiple objects of various types.  
-The rest of the pages will utilize Comic Vine's APIs.
+The rest of the pages will utilize Comic Vine's APIs.  
+  
+In order to run run the app, get your Comic Vine API key at [**http://www.comicvine.com/api/**](http://www.comicvine.com/api/)  
+Then create a file on the following path:  
+&nbsp; &nbsp; &nbsp; &nbsp; [your path]/CA-AngularJS/superheroes/app/config/no_pasaran.json  
+
+as:  
+&nbsp; &nbsp; &nbsp; &nbsp; {  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "cv_api_key": "[your comicvine API key]"  
+&nbsp; &nbsp; &nbsp; &nbsp; }  
