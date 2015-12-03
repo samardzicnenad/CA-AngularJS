@@ -20,12 +20,12 @@ From the http://www.openweathermap.org/, using their API key (you have to regist
   
 Get your openweathermap API key at [**http://openweathermap.org/appid**](http://openweathermap.org/appid)  
 Then create a file on the following path:  
-> [your path]/CA-AngularJS/weather22/app/config/no_pasaran.json  
+&nbsp; &nbsp; &nbsp; &nbsp; [your path]/CA-AngularJS/weather22/app/config/no_pasaran.json  
 
 as:  
-> {  
-      "owm_api_key": "[your openweathermap API key]"  
-  }  
+&nbsp; &nbsp; &nbsp; &nbsp; {  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "owm_api_key": "[your openweathermap API key]"  
+&nbsp; &nbsp; &nbsp; &nbsp; }  
       
 Data is received in JSON format.  
 The units are metric. 
