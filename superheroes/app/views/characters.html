@@ -1,1 +1,31 @@
-CHARACTERS' PAGE
+<div ng-repeat="character in characters" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ character.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">{{ $index+1 }}.
+                <a ng-href=" {{ character.site_detail_url }} " target="_blank" >
+                    <element ng-if="character.real_name.split(' ').join('')">
+                        {{ character.real_name }} a.k.a.
+                    </element>{{ character.name }}
+                </a>
+            </div>
+            <div class="separate">
+                <element ng-if="character.aliases">
+                    Known under the following aliases:
+                    <element class="nobold">
+                        {{ character.aliases.split("\n").join(", ") }}
+                    </element>
+                </element>
+            </div>
+            <div>
+                No. of appearances:
+                <element class="nobold">
+                    {{ character.count_of_issue_appearances }}
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>

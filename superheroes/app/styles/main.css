@@ -18,16 +18,21 @@ body {
     width: 80%;
     min-width: 1476px;
     margin: 5px auto;
+    background: #231F20;
 }
 
 a {
     color: #21AE4E;
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:active {
+    color: #FFFFFF;
+}
+
+a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
+
 /*************************/
 
 /* Styling - specific tags */
@@ -71,6 +76,10 @@ a:hover, a:visited, a:link, a:active
 .sh-header .sh-container img {
     height: 120px;
     margin: 10px;
+}
+
+.sh-header .sh-menu {
+    height: 42px;
 }
 
 .sh-header .sh-menu .sh-sub {
@@ -191,5 +200,56 @@ p.car-cap {
 
 .carousel-caption .distant {
     margin: 3px 0;
+}
+
+.separate {
+    margin: 5px 0px;
+}
+/*************************/
+
+/* Styling - API pages */
+.categories {
+    width: 50%;
+    margin: 1px auto;
+}
+
+.even-category .category-container {
+    padding: 5px;
+    border-style: solid;
+    background: #EAB229;
+    border-color: #22AE4E;
+}
+
+.even-category .category-container .category-data .category-name {
+    margin-bottom: 10px;
+}
+
+.even-category .category-container .category-data .category-name a {
+    color: white;
+}
+
+.odd-category .category-container {
+    padding: 5px;
+    border-style: solid;
+    background: #22AE4E;
+    border-color: #EAB229;
+}
+
+.odd-category .category-container .category-data .category-name {
+    margin-bottom: 10px;
+}
+
+.odd-category .category-container .category-data .category-name a {
+    color: white;
+}
+
+.categories .category-image {
+    float: left;
+    margin-right: 6px;
+}
+
+.categories .category-image img {
+    width: 120px;
+    height: 160px;
 }
 /*************************/
