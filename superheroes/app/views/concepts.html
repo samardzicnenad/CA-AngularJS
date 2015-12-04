@@ -1,1 +1,31 @@
-CONCEPTS' PAGE
+<div ng-repeat="concept in concepts" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ concept.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">{{ $index+1 }}.
+                <a ng-href=" {{ concept.site_detail_url }} " target="_blank" >
+                    <element ng-if="concept.real_name.split(' ').join('')">
+                        {{ concept.real_name }} a.k.a.
+                    </element>{{ concept.name }}
+                </a>
+            </div>
+            <div class="separate">
+                <element ng-if="concept.deck">
+                    Brief summary of the concept:
+                    <element class="nobold">
+                        {{ concept.deck }}
+                    </element>
+                </element>
+            </div>
+            <div>
+                No. of appearances:
+                <element class="nobold">
+                    {{ concept.count_of_isssue_appearances }}
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
