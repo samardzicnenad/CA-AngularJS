@@ -4,28 +4,28 @@ angular.module('Superheroes', ['ngRoute', 'ui.bootstrap'])
 .config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            controller: 'NovakControler',
+            controller: 'MainControler',
             templateUrl: 'views/main.html'
         })
-        .when('/publishers/', {
-            controller: 'PublishersController',
-            templateUrl: 'views/publishers.html'
+        .when('/characters/', {
+            controller: 'CharactersController',
+            templateUrl: 'views/characters.html'
         })
-        .when('/volumes/', {
-            controller: 'VolumesController',
-            templateUrl: 'views/volumes.html'
+        .when('/concepts/', {
+            controller: 'ConceptsController',
+            templateUrl: 'views/concepts.html'
         })
         .when('/issues/', {
             controller: 'IssuesController',
             templateUrl: 'views/issues.html'
         })
-        .when('/teams/', {
-            controller: 'TeamsController',
-            templateUrl: 'views/teams.html'
+        .when('/locations/', {
+            controller: 'LocationsController',
+            templateUrl: 'views/locations.html'
         })
-        .when('/characters/', {
-            controller: 'CharactersController',
-            templateUrl: 'views/characters.html'
+        .when('/objects/', {
+            controller: 'ObjectsController',
+            templateUrl: 'views/objects.html'
         })
         .when('/origins/', {
             controller: 'OriginsController',
@@ -35,17 +35,17 @@ angular.module('Superheroes', ['ngRoute', 'ui.bootstrap'])
             controller: 'PowersController',
             templateUrl: 'views/powers.html'
         })
-        .when('/concepts/', {
-            controller: 'ConceptsController',
-            templateUrl: 'views/concepts.html'
+        .when('/publishers/', {
+            controller: 'PublishersController',
+            templateUrl: 'views/publishers.html'
         })
-        .when('/objects/', {
-            controller: 'ObjectsController',
-            templateUrl: 'views/objects.html'
+        .when('/teams/', {
+            controller: 'TeamsController',
+            templateUrl: 'views/teams.html'
         })
-        .when('/locations/', {
-            controller: 'LocationsController',
-            templateUrl: 'views/locations.html'
+        .when('/volumes/', {
+            controller: 'VolumesController',
+            templateUrl: 'views/volumes.html'
         })
         .when('/404/', {
             templateUrl: 'views/404.html'
@@ -54,8 +54,3 @@ angular.module('Superheroes', ['ngRoute', 'ui.bootstrap'])
             redirectTo: '/404'
         });
 });
-/*.config(['$httpProvider', function($httpProvider) {
-        $httpProvider.defaults.useXDomain = true;
-        delete $httpProvider.defaults.headers.common['X-Requested-With'];
-    }
-]);*/
