@@ -1,1 +1,13 @@
-ORIGINS' PAGE
+<div ng-repeat="origin in origins" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ origin.site_detail_url }} " target="_blank" >
+                    {{ origin.name }}
+                </a>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
