@@ -1,1 +1,13 @@
-POWERS' PAGE
+<div ng-repeat="power in powers" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ power.site_detail_url }} " target="_blank" >
+                    {{ power.name }}
+                </a>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
