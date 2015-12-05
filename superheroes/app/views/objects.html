@@ -1,1 +1,42 @@
-OBJECTS' PAGE
+<div ng-repeat="object in objects" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ object.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ object.site_detail_url }} " target="_blank" >
+                    {{ object.name }}
+                </a>
+            </div>
+            <div class="separate">
+                <element ng-if="object.aliases">
+                    Known under the following aliases:
+                    <element class="nobold">
+                        {{ object.aliases.split("\n").join(", ") }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="object.deck">
+                    Brief summary of the concept:
+                    <element class="nobold">
+                        {{ object.deck }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="object.start_year">
+                    <div>
+                        The first appearance on:
+                        <element class="nobold">
+                            {{ object.start_year }}
+                        </element>
+                    </div>
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
