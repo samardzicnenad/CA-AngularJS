@@ -13,9 +13,17 @@
             </div>
             <div class="separate">
                 <element ng-if="character.aliases">
-                    Known under the following aliases:
+                    Known as:
                     <element class="nobold">
                         {{ character.aliases.split("\n").join(", ") }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="character.deck">
+                    About:
+                    <element class="nobold">
+                        {{ character.deck }}
                     </element>
                 </element>
             </div>
