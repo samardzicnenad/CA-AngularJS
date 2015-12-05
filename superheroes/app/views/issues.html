@@ -1,1 +1,32 @@
-ISSUES' PAGE
+<div ng-repeat="issue in issues" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ issue.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ issue.site_detail_url }} " target="_blank" >
+                    {{ issue.name }}
+                </a>
+            </div>
+            <div>
+                Volume:
+                <element class="nobold">
+                    {{ issue.volume.name }},
+                </element>
+                Issue
+                <element class="nobold">
+                    #{{ issue.issue_number }}
+                </element>
+            </div>
+            <div>
+                Published on:
+                <element class="nobold">
+                    {{ issue.cover_date }}
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
