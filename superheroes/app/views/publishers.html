@@ -1,1 +1,40 @@
-PUBLISHERS' PAGE
+<div ng-repeat="publisher in publishers" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ publisher.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ publisher.site_detail_url }} " target="_blank" >
+                    {{ publisher.name }}
+                </a>
+            </div>
+            <element ng-if="publisher.location_address || publisher.location_city || publisher.location_state">
+                <div class="separate">
+                    Location:
+                    <element class="nobold">
+                        <element ng-if="publisher.location_address">
+                            {{ publisher.location_address }}<element ng-if="publisher.location_city || publisher.location_state">,</element>
+                        </element>
+                        <element ng-if="publisher.location_city">
+                            {{ publisher.location_city }}<element ng-if="publisher.location_state">,</element>
+                        </element>
+                        <element ng-if="publisher.location_state">
+                            {{ publisher.location_state }}
+                        </element>
+                    </element>
+                </div>
+            </element>
+            <div class="separate">
+                <element ng-if="publisher.deck.split(' ').join('')">
+                    Brief description:
+                    <element class="nobold">
+                        {{ publisher.deck }}
+                    </element>
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
