@@ -1,1 +1,40 @@
-TEAMS' PAGE
+<div ng-repeat="team in teams" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ team.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ team.site_detail_url }} " target="_blank" >
+                    {{ team.name }}
+                </a>
+            </div>
+            <div class="separate">
+                <element ng-if="team.aliases.split(' ').join('')">
+                    Also known as:
+                    <element class="nobold">
+                        {{ team.aliases.split('\n').join(', ') }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="team.count_of_team_members">
+                    Head count:
+                    <element class="nobold">
+                        {{ team.count_of_team_members }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="team.deck.split(' ').join('')">
+                    Brief description:
+                    <element class="nobold">
+                        {{ team.deck }}
+                    </element>
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
