@@ -15,4 +15,18 @@ angular.module('Superheroes').service('comicVine', ['apiKey', '$http', '$q', fun
         });
         return deferred.promise;
     };
+    this.search = function(criteria){
+        var deferred = $q.defer();
+        apiKey.get()
+        .then(function(result){
+            return $http.jsonp('http://api.comicvine.com/search/?api_key='+result.data.cv_api_key+'&format=jsonp&json_callback=JSON_CALLBACK&'+criteria)
+            .success(function(data) {
+                deferred.resolve(data);
+            })
+            .error(function(err) {
+                deferred.reject(err);
+            });
+        });
+        return deferred.promise;
+    };
 }]);

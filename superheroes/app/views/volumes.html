@@ -1,1 +1,48 @@
-VOLUMES' PAGE
+<div ng-repeat="volume in volumes" ng-class-odd="'odd-category'" ng-class-even="'even-category'" class="categories">
+    <div class="category-container">
+        <div class="category-image">
+            <img ng-src="{{ volume.image.medium_url }}" />
+        </div>
+        <div class="category-data bold">
+            <div class="category-name">
+                {{ $index+1 }}.
+                <a ng-href=" {{ volume.site_detail_url }} " target="_blank" >
+                    {{ volume.name }}
+                </a>
+            </div>
+            <div class="separate">
+                <element ng-if="volume.start_year">
+                    Start year:
+                    <element class="nobold">
+                        {{ volume.start_year }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="volume.count_of_issues">
+                    Count of issues:
+                    <element class="nobold">
+                        {{ volume.count_of_issues }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="volume.aliases.split(' ').join('')">
+                    Aliases:
+                    <element class="nobold">
+                        {{ volume.aliases.split('\n').join(', ') }}
+                    </element>
+                </element>
+            </div>
+            <div class="separate">
+                <element ng-if="volume.deck.split(' ').join('')">
+                    Brief description:
+                    <element class="nobold">
+                        {{ volume.deck }}
+                    </element>
+                </element>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
