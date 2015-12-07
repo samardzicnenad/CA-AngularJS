@@ -40,7 +40,20 @@ The app utilizes a custom directive and a custom service. The directive embeds Y
 I wanted to create an application that would work on live public API. The direct inspiration was Novak's (my 4 year old son) interest in comic characters. So, I have found a nice API provided by [**Comic Vine**](http://www.comicvine.com/api/).  
 The main page is a carousel of Novak's favorite characters/concepts read from the controller file. The data has been pulled down locally because the API doesn't support single call for multiple objects of various types ('characters' and 'concepts' in this case).  
 The rest of the pages was supposed to utilize Comic Vine's APIs in order to create a hierarchical structure of different categories, but the API wasn't suitable for what I wanted to achieve. So, instead, just as an example, I am making simple API calls on each of the categories and display the results.  
-  
+- Characters: returning the characters that have 'woman' in their name, ordered by name descending  
+- Concepts: returning the concepts that have 'life' in their name, ordered by name ascending  
+- Issues: returning the 20th century issues that have 'joker' in their name, ordered by their cover date ascending  
+- Locations: returning the locations that have 'island' in their name, ordered by name ascending  
+- Objects: returning the objects that have 'sword' in their name, ordered by name ascending  
+- Origins: returning the origins ordered by name ascending  
+- Powers: returning the powers ordered by name ascending  
+- Publishers: returning the publishers from NYC (unfortunatelly, this filter is not working correctly)  
+- Teams: returning the teams ordered by their headcount descending (unfortunatelly, this sort is not working correctly)  
+- Volumes: returning the volumes that have 'aquaman' in any of their searchable attributes (uses a diferrent API call than the rest of the categories)  
+
+Note:  
+&nbsp; &nbsp; &nbsp; &nbsp;The max number of results per API call is 100  
+
 In order to run run the app, get your Comic Vine API key at [**http://www.comicvine.com/api/**](http://www.comicvine.com/api/)  
 Then create a file on the following path:  
 &nbsp; &nbsp; &nbsp; &nbsp; [your path]/CA-AngularJS/superheroes/app/config/no_pasaran.json  
