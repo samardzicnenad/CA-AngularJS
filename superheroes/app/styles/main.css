@@ -1,9 +1,9 @@
-/* Defining elements */
 @font-face {
-    font-family: 'Chlorinar';
-    src: url('../fonts/CHLORINR.TTF') format('truetype'); /* Safari, Android, iOS */
+    font-family: 'Engcomica';
+    src: url('../fonts/Engcomica.OTF') format('truetype'); /* Safari, Android, iOS */
     font-weight: bold;
 }
+
 /*********************/
 
 /* Styling - global tags */
@@ -15,8 +15,8 @@ html {
 body {
     font-size: 16px;
     line-height: initial;
-    width: 80%;
-    min-width: 1476px;
+    width: 70%;
+    min-width: 1300px;
     margin: 5px auto;
     background: #231F20;
 }
@@ -58,9 +58,9 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .sh-header .sh-container .sh-center .title {
-    font-size: 6.0em;
+    font-size: 8.3em;
     font-weight: bold;
-    font-family: Chlorinar;
+    font-family: Engcomica;
     color: #EAB229;
 }
 
@@ -75,7 +75,7 @@ a:hover, a:visited, a:link, a:active {
 
 .sh-header .sh-container img {
     height: 120px;
-    margin: 10px;
+    margin: 10px 25px;
 }
 
 .sh-header .sh-menu {
@@ -89,7 +89,7 @@ a:hover, a:visited, a:link, a:active {
     padding: 8px 0;
     background: #231F20;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-shadow: 1px 1px #EAB229;
 }
 
