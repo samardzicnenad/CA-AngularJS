@@ -1,9 +1,9 @@
+/* Styling - defined font */
 @font-face {
     font-family: 'Engcomica';
     src: url('../fonts/Engcomica.OTF') format('truetype'); /* Safari, Android, iOS */
     font-weight: bold;
 }
-
 /*********************/
 
 /* Styling - global tags */
@@ -32,7 +32,6 @@ a:active {
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
-
 /*************************/
 
 /* Styling - specific tags */
@@ -90,7 +89,7 @@ a:hover, a:visited, a:link, a:active {
     background: #231F20;
     font-weight: bold;
     font-size: 1.2em;
-    text-shadow: 1px 1px #EAB229;
+    text-shadow: 1px 1px #0088CC;
 }
 
 /* Styling - customizing ui-bootstrap */
@@ -140,13 +139,6 @@ concept:hover +.carousel-caption {
     visibility: visible;
     opacity: 1;
 }
-
-/*
-.carousel-control {
-    background-image: url("../images/logos/2357.png");
-    opacity: 1;
-}
-*/
 
 /* Styling - images */
 .sh-portrait {
