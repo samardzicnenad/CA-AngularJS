@@ -245,3 +245,26 @@ p.car-cap {
     height: 160px;
 }
 /*************************/
+
+/* Styling - 404 page */
+.container-404 {
+    width: 65%;
+    margin: 20px auto;
+    padding: 15px;
+    background: #EAB229;
+    border-style: solid;
+    border-color: #22AE4E;
+}
+
+.data-404 {
+    width: 55%;
+    margin: 1px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ul-404 {
+    width: 40%;
+    margin: 10px auto;
+}
+/*************************/
